@@ -7,7 +7,7 @@ export default function navigation({ openMenu, setOpenMenu }) {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            Genius.
+            Portfolio
           </a>
           <div className="itemContainer">
             <Person className="icon" />
