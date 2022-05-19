@@ -3,16 +3,16 @@ import { init } from "ityped";
 import "./Intro.scss";
 
 export default function Intro() {
-  const textRef = useRef();
+  //const textRef = useRef();
 
-  useEffect(() => {
-    init(textRef.current, {
-      showCursor: false,
-      backDelay: 1500,
-      backSpeed: 60,
-      strings: ["Software", "React"],
-    });
-  }, []);
+  // useEffect(() => {
+  //   init(textRef.current, {
+  //     showCursor: false,
+  //     backDelay: 1500,
+  //     backSpeed: 60,
+  //     strings: ["Software", "React"],
+  //   });
+  // }, []);
 
   return (
     <div className="intro" id="intro">
@@ -26,7 +26,7 @@ export default function Intro() {
           <h2> Hi There, I'm</h2>
           <h1> K Vamsi Verma</h1>
           <h3>
-            <span ref={textRef}></span> Developer
+            <span>Software</span> Developer
           </h3>
         </div>
         <a href="#portfolio">
